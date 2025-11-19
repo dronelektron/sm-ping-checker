@@ -1,5 +1,16 @@
 "Phrases"
 {
+    "Prefix"
+    {
+        "en"    "F0E68C[Ping checker] "
+    }
+
+    "Player kicked for high ping"
+    {
+        "#format"   "{1:N}"
+        "en"    "Player 00FF00{1} is kicked for a high ping"
+    }
+
     "Your ping is too high"
     {
         "#format"   "{1:d},{2:d}"

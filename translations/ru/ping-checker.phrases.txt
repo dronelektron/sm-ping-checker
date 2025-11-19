@@ -1,5 +1,10 @@
 "Phrases"
 {
+    "Player kicked for high ping"
+    {
+        "ru"    "Игрок 00FF00{1} кикнут за высокий пинг"
+    }
+
     "Your ping is too high"
     {
         "ru"    "Ваш пинг ({1}) превысил максимальный ({2})"
