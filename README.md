@@ -8,7 +8,7 @@ Allows you to kick players with high ping
 
 ### Requirements
 
-* [SourceMod](https://www.sourcemod.net) 1.11 or later
+* [SourceMod](https://www.sourcemod.net) 1.12 or later
 
 ### Installation
 
