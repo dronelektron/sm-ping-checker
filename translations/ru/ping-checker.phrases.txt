@@ -1,6 +1,6 @@
 "Phrases"
 {
-    "High ping"
+    "Your ping is too high"
     {
         "ru"    "Ваш пинг ({1}) превысил максимальный ({2})"
     }

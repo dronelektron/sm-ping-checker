@@ -28,7 +28,7 @@ static void CheckPing(int client) {
         return;
     }
 
-    KickClient(client, "%t", "High ping", ping, maxPing);
+    KickClient(client, "%t", "Your ping is too high", ping, maxPing);
     Message_HighPing(client, ping, maxPing);
 }
 
