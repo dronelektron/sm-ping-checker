@@ -5,6 +5,7 @@
 
 #include "modules/client.sp"
 #include "modules/console-variable.sp"
+#include "modules/event.sp"
 #include "modules/forward.sp"
 #include "modules/message.sp"
 #include "modules/timer.sp"
@@ -20,6 +21,7 @@ public Plugin myinfo = {
 
 public void OnPluginStart() {
     Variable_Create();
+    Event_Create();
     Forward_Create();
     LoadTranslations("ping-checker.phrases");
     AutoExecConfig(_, "ping-checker");
