@@ -7,8 +7,8 @@
 
     "Player kicked for high ping"
     {
-        "#format"   "{1:N}"
-        "en"    "Player 00FF00{1} is kicked for a high ping"
+        "#format"   "{1:N},{2:d},{3:d}"
+        "en"    "Player 00FF00{1} is kicked for a high ping ({2}), maximum {3}"
     }
 
     "Your ping is too high"
