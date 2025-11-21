@@ -5,6 +5,7 @@
 
 #include "modules/client.sp"
 #include "modules/console-variable.sp"
+#include "modules/event.sp"
 #include "modules/forward.sp"
 #include "modules/message.sp"
 #include "modules/timer.sp"
@@ -14,12 +15,13 @@ public Plugin myinfo = {
     name = "Ping checker",
     author = "Dron-elektron",
     description = "Allows you to kick players with high ping",
-    version = "1.2.0",
+    version = "1.2.1",
     url = "https://github.com/dronelektron/ping-checker"
 };
 
 public void OnPluginStart() {
     Variable_Create();
+    Event_Create();
     Forward_Create();
     LoadTranslations("ping-checker.phrases");
     AutoExecConfig(_, "ping-checker");
