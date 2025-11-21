@@ -15,7 +15,7 @@ public Plugin myinfo = {
     name = "Ping checker",
     author = "Dron-elektron",
     description = "Allows you to kick players with high ping",
-    version = "1.2.0",
+    version = "1.2.1",
     url = "https://github.com/dronelektron/ping-checker"
 };
 
